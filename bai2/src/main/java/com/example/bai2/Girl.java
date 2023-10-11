@@ -9,7 +9,7 @@ public class Girl {
 
     Outfit outfit;
 
-    public Girl(@Qualifier("Suit") Outfit outfit) {
+    public Girl(@Qualifier("Naked") Outfit outfit) {
         this.outfit = outfit;
     }
 
